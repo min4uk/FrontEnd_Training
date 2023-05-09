@@ -1,18 +1,67 @@
 body {
     background-color: gray;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
-    background-image: url('../images/header1.jpg');
+    background-image: url('../images/header.jpg');
+    text-align: center;
+    padding: 30px 0 200px;
+    background-size: cover;
+    color: #C7C4C9;
 }
 
 h1 {
     font-size: 60px;
-    color: #000000;
-    text-align: center;
+    margin-bottom: 50px;
+    line-height: 70px;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
+}
+
+p {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.logotype {
+    display: contents;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.mainBTN {
+    background: #EA2127;
+    border: none;
+    padding: 16px 40px;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #C7C4C9;
+    cursor: pointer;
+}
+
+.info {
+    background-color: #225262;
+    color: #C7C4C9;
+}
+
+.info a {
+    color: deepskyblue;
+}
+
+.container_info {
+    padding: 120px;
+    width: 850px;
+    margin: 0 auto;
+}
+
+.refs {
+    text-align: center;
+    word-spacing: 100px;
+    padding: 0px;
+    margin: 0 auto;
 }
