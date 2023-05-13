@@ -1,7 +1,4 @@
-body {
-    background-color: gray;
-    font-family: 'Montserrat', sans-serif;
-}
+/*HEADER START*/
 
 header {
     background-image: url('../images/header.jpg');
@@ -17,14 +14,11 @@ h1 {
     line-height: 70px;
 }
 
-h2 {
-    font-size: 50px;
-    text-align: center;
-}
-
-p {
-    font-size: 30px;
-    line-height: 40px;
+h4 {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #225262;
 }
 
 .logotype {
@@ -44,13 +38,36 @@ p {
     cursor: pointer;
 }
 
+/*HEADER END*/
+
+/*BODY START*/
+
+a {
+    color: deepskyblue;
+}
+
+body {
+    background-color: gray;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+/*BODY END*/
+
+/*INFO START*/
+
 .info {
     background-color: #225262;
     color: #C7C4C9;
-}
-
-.info a {
-    color: deepskyblue;
 }
 
 .container_info {
@@ -65,3 +82,64 @@ p {
     padding: 0px;
     margin: 0 auto;
 }
+
+/*INFO END*/
+
+/*ADVANTAGES START*/
+
+.advantages {
+}
+
+.advantages_blocks {
+    width: 1195px;
+    margin: 0 auto;
+}
+
+.advantages_block {
+    display: flex;
+}
+
+    .advantages_block:nth-child(2) img {
+        order: 1;
+    }
+
+    .advantages_block:nth-child(2) .advantages_description {
+        padding-left: 0;
+        padding-right: 50px;
+    }
+
+    .advantages_block img {
+        width: 585px;
+        height: 585px;
+    }
+
+.advantages_description {
+    padding-left: 50px;
+    padding-top: 30px;
+    margin-top: 40px;
+}
+
+.date {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+
+    .date b {
+        font-weight: bold;
+    }
+
+.apply {
+    font-size: 21px;
+    line-height: 24.5px;
+    color: #000000;
+    background-color: deepskyblue;
+    border: none;
+    padding: 15px 70px;
+    border-radius: 45px;
+    margin-top: 40px;
+}
+
+/*ADVANTAGES END*/
