@@ -88,6 +88,7 @@ p {
 /*ADVANTAGES START*/
 
 .advantages {
+    padding: 80px 0 100px;
 }
 
 .advantages_blocks {
@@ -143,3 +144,59 @@ p {
 }
 
 /*ADVANTAGES END*/
+
+/*FORM START*/
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    display: none;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+}
+
+.callback-form {
+    background-color: deepskyblue;
+    border-radius: 50px;
+    padding: 100px 80px 50px;
+}
+
+    .callback-form input {
+        width: 350px;
+        border: 1px solid #FFFFFF;
+        background-color: transparent;
+        padding: 15px 30px;
+        border-radius: 30px;
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 15px;
+    }
+
+        .callback-form input:first-child {
+            margin-right: 15px;
+        }
+
+        .callback-form input::placeholder {
+            color: #C7C4C9;
+            font-size: 18px;
+        }
+
+    .callback-form .callback-form_btn {
+        background-color: #EA2127;
+        border: none;
+        padding: 16px 40px;
+        border-radius: 50px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        color: #C7C4C9;
+        cursor: pointer;
+        display: block;
+        margin: 0 auto;
+    }
+
+/*FORM END*/
