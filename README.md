@@ -1,6 +1,8 @@
 # FrontEnd_Training
 I made this repository to try to create a basic website. I will use this knowledge for my future websites and projects
 
+This website is the calling card of our DND club - onedseven
+
 - Header area with logo
 ![1](https://github.com/min4uk/FrontEnd_Training/assets/68245598/fbab74bc-fc7d-408c-b351-3567612aeb01)
 - Posts area with latest news or events
